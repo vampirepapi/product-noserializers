@@ -1,0 +1,4 @@
+curl -X POST http://127.0.0.1:8000/productitem/products/insertProduct/ -d '{"ipAddress":"192.168.2.1","ProductName":"English","ProductPrice":"50"}' -H "Content-Type: application/json"
+
+
+curl -X POST http://localhost:8000/productitem/products/insertProduct/ -d '{"ipAddress":"192.168.2.1"}' -H "Content-Type: application/json"
